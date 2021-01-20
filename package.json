@@ -1,0 +1,13 @@
+{
+  "name": "cheerio-bundling-repro",
+  "scripts": {
+    "test": "rollup -c && node dist/cheerio-bundled.js"
+  },
+  "dependencies": {
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^11.1.0",
+    "cheerio": "^1.0.0-rc.5",
+    "rollup": "^2.37.1"
+  }
+}
